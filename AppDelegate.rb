@@ -10,5 +10,13 @@ class AppDelegate
 
   def teaReady(theTimer)
     NSApp.activateIgnoringOtherApps true
+    NSAlert.alertWithMessageText(
+      'Tee ist fertig!',
+      defaultButton:nil,
+      alternateButton:nil,
+      otherButton:nil,
+      informativeTextWithFormat:'Tee ist fertig!'
+    ).runModal
+    NSApp.terminate nil
   end
 end

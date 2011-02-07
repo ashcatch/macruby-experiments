@@ -1,4 +1,4 @@
-$teaTimeSeconds = 5
+$teaTimeSeconds = 3 * 60
 
 class AppDelegate
   def applicationDidFinishLaunching(notification)
@@ -21,7 +21,10 @@ class AppDelegate
   end
 
   def countDown(theTime)
-    @statusItem.setTitle "☕ #{(@timeFinished - Time.now).round.to_i}"
+    totalCountDown = (@timeFinished - Time.now).round.to_i
+    minutesCountDown = totalCountDown / 60
+    secondsCountDown = totalCountDown % 60
+    @statusItem.setTitle "☕ #{minutesCountDown}:#{'%02d' % secondsCountDown}"
   end
 
   def teaReady(theTimer)

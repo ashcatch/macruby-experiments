@@ -50,6 +50,7 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D810D88312F5CB89004C144C /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = D810D88212F5CB89004C144C /* AppDelegate.rb */; };
+		D8E64CD612FFFB2400F4EB19 /* teacup.icns in Resources */ = {isa = PBXBuildFile; fileRef = D8E64CD512FFFB2400F4EB19 /* teacup.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +80,7 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Tea Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tea Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D810D88212F5CB89004C144C /* AppDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		D8E64CD512FFFB2400F4EB19 /* teacup.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = teacup.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D8E64CD512FFFB2400F4EB19 /* teacup.icns */,
 				2BFA9DA510CDF852007972A1 /* MainMenu.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -237,6 +240,7 @@
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */,
 				D810D88312F5CB89004C144C /* AppDelegate.rb in Resources */,
+				D8E64CD612FFFB2400F4EB19 /* teacup.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -74,8 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				D8737B95142779F700BD2495 /* AppDelegate.rb */,
+				D8737B93142779F700BD2495 /* rb_main.rb */,
 				D8737B8E142779F700BD2495 /* Resources */,
-				D8737B92142779F700BD2495 /* Other Sources */,
 				D8737B86142779F700BD2495 /* Supporting Files */,
 			);
 			path = "Tea Time";
@@ -99,14 +99,6 @@
 				D8737B8F142779F700BD2495 /* MainMenu.xib */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		D8737B92142779F700BD2495 /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				D8737B93142779F700BD2495 /* rb_main.rb */,
-			);
-			name = "Other Sources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

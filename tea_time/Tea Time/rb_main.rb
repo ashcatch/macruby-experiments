@@ -1,3 +1,13 @@
+#
+#  rb_main.rb
+#  Tea Time
+#
+#  Created by Rainer Schmid on 19.09.11.
+#  Copyright (c) 2011 froglogic GmbH. All rights reserved.
+#
+
+# Loading the Cocoa framework. If you need to load more frameworks, you can
+# do that here too.
 framework 'Cocoa'
 
 # Loading all the Ruby project files.

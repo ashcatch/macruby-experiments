@@ -3,315 +3,213 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		172754BD107597F200D0347B /* Unit Tests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 172754C7107597F400D0347B /* Build configuration list for PBXAggregateTarget "Unit Tests" */;
-			buildPhases = (
-				172754BC107597F200D0347B /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = "Unit Tests";
-			productName = "Unit Tests";
-		};
-		4D1A51A110A4FF5D0046A98A /* Compile */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 4D1A51AB10A4FF6A0046A98A /* Build configuration list for PBXAggregateTarget "Compile" */;
-			buildPhases = (
-				4D1A51A010A4FF5D0046A98A /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = Compile;
-			productName = Compile;
-		};
-		4D1A51A510A4FF640046A98A /* Embed */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 4D1A51AC10A4FF6A0046A98A /* Build configuration list for PBXAggregateTarget "Embed" */;
-			buildPhases = (
-				4D1A51A410A4FF640046A98A /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = Embed;
-			productName = Embed;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA9DA510CDF852007972A1 /* MainMenu.xib */; };
-		4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
-		4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
-		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
-		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		D810D88312F5CB89004C144C /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = D810D88212F5CB89004C144C /* AppDelegate.rb */; };
-		D8E64CD612FFFB2400F4EB19 /* teacup.icns in Resources */ = {isa = PBXBuildFile; fileRef = D8E64CD512FFFB2400F4EB19 /* teacup.icns */; };
+		D8737B81142779F700BD2495 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8737B80142779F700BD2495 /* Cocoa.framework */; };
+		D8737B83142779F700BD2495 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8737B82142779F700BD2495 /* MacRuby.framework */; };
+		D8737B8A142779F700BD2495 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8737B88142779F700BD2495 /* InfoPlist.strings */; };
+		D8737B8C142779F700BD2495 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8737B8B142779F700BD2495 /* main.m */; };
+		D8737B91142779F700BD2495 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8737B8F142779F700BD2495 /* MainMenu.xib */; };
+		D8737B94142779F700BD2495 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = D8737B93142779F700BD2495 /* rb_main.rb */; };
+		D8737B96142779F700BD2495 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = D8737B95142779F700BD2495 /* AppDelegate.rb */; };
+		D8737BB614277E6E00BD2495 /* teacup.icns in Resources */ = {isa = PBXBuildFile; fileRef = D8737BB514277E6E00BD2495 /* teacup.icns */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		172754B4107597CF00D0347B /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
-		172754D5107598EA00D0347B /* stub_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = stub_test.rb; sourceTree = "<group>"; };
-		17D55CD81076A1A2008207BD /* run_suite.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = run_suite.rb; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		2BFA9DA610CDF852007972A1 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
-		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
-		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* Tea Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tea Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D810D88212F5CB89004C144C /* AppDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
-		D8E64CD512FFFB2400F4EB19 /* teacup.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = teacup.icns; sourceTree = "<group>"; };
+		D8737B7C142779F700BD2495 /* Tea Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tea Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8737B80142779F700BD2495 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D8737B82142779F700BD2495 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		D8737B87142779F700BD2495 /* Tea Time-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tea Time-Info.plist"; sourceTree = "<group>"; };
+		D8737B89142779F700BD2495 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8737B8B142779F700BD2495 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8737B8D142779F700BD2495 /* Tea Time-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tea Time-Prefix.pch"; sourceTree = "<group>"; };
+		D8737B90142779F700BD2495 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D8737B93142779F700BD2495 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		D8737B95142779F700BD2495 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		D8737BB514277E6E00BD2495 /* teacup.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = teacup.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D11072E0486CEB800E47090 /* Frameworks */ = {
+		D8737B79142779F700BD2495 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */,
+				D8737B81142779F700BD2495 /* Cocoa.framework in Frameworks */,
+				D8737B83142779F700BD2495 /* MacRuby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080E96DDFE201D6D7F000001 /* Classes */ = {
+		D8737B71142779F700BD2495 = {
 			isa = PBXGroup;
 			children = (
-				D810D88212F5CB89004C144C /* AppDelegate.rb */,
+				D8737B85142779F700BD2495 /* Tea Time */,
+				D8737B7F142779F700BD2495 /* Frameworks */,
+				D8737B7D142779F700BD2495 /* Products */,
 			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
-		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+		D8737B7D142779F700BD2495 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DE3BE130D8651D900ECA448 /* MacRuby.framework */,
-				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
-			);
-			name = "Linked Frameworks";
-			sourceTree = "<group>";
-		};
-		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
-				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
-				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		172754AE1075979200D0347B /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				172754D5107598EA00D0347B /* stub_test.rb */,
-				17D55CD81076A1A2008207BD /* run_suite.rb */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		19C28FACFE9D520D11CA2CBB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8D1107320486CEB800E47090 /* Tea Time.app */,
+				D8737B7C142779F700BD2495 /* Tea Time.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA /* Tea Time */ = {
+		D8737B7F142779F700BD2495 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				172754AE1075979200D0347B /* Tests */,
-				080E96DDFE201D6D7F000001 /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				29B97317FDCFA39411CA2CEA /* Resources */,
-				29B97323FDCFA39411CA2CEA /* Frameworks */,
-				19C28FACFE9D520D11CA2CBB /* Products */,
-			);
-			name = "Tea Time";
-			sourceTree = "<group>";
-		};
-		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
-			isa = PBXGroup;
-			children = (
-				4DE339F60D74FCDD00ADB6EE /* rb_main.rb */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
-			);
-			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		29B97317FDCFA39411CA2CEA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D8E64CD512FFFB2400F4EB19 /* teacup.icns */,
-				2BFA9DA510CDF852007972A1 /* MainMenu.xib */,
-				8D1107310486CEB800E47090 /* Info.plist */,
-				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
-				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				D8737B80142779F700BD2495 /* Cocoa.framework */,
+				D8737B82142779F700BD2495 /* MacRuby.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D8737B85142779F700BD2495 /* Tea Time */ = {
+			isa = PBXGroup;
+			children = (
+				D8737B95142779F700BD2495 /* AppDelegate.rb */,
+				D8737B8E142779F700BD2495 /* Resources */,
+				D8737B92142779F700BD2495 /* Other Sources */,
+				D8737B86142779F700BD2495 /* Supporting Files */,
+			);
+			path = "Tea Time";
+			sourceTree = "<group>";
+		};
+		D8737B86142779F700BD2495 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8737BB514277E6E00BD2495 /* teacup.icns */,
+				D8737B87142779F700BD2495 /* Tea Time-Info.plist */,
+				D8737B88142779F700BD2495 /* InfoPlist.strings */,
+				D8737B8B142779F700BD2495 /* main.m */,
+				D8737B8D142779F700BD2495 /* Tea Time-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8737B8E142779F700BD2495 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8737B8F142779F700BD2495 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D8737B92142779F700BD2495 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D8737B93142779F700BD2495 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* Tea Time */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Tea Time" */;
+/* Begin PBXLegacyTarget section */
+		D8737B84142779F700BD2495 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = D8737B9C142779F700BD2495 /* Build configuration list for PBXLegacyTarget "Deployment" */;
 			buildPhases = (
-				8D1107290486CEB800E47090 /* Resources */,
-				8D11072C0486CEB800E47090 /* Sources */,
-				8D11072E0486CEB800E47090 /* Frameworks */,
-				172754B4107597CF00D0347B /* CopyFiles */,
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		D8737B7B142779F700BD2495 /* Tea Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8737B99142779F700BD2495 /* Build configuration list for PBXNativeTarget "Tea Time" */;
+			buildPhases = (
+				D8737B78142779F700BD2495 /* Sources */,
+				D8737B79142779F700BD2495 /* Frameworks */,
+				D8737B7A142779F700BD2495 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Tea Time";
-			productInstallPath = "$(HOME)/Applications";
 			productName = "Tea Time";
-			productReference = 8D1107320486CEB800E47090 /* Tea Time.app */;
+			productReference = D8737B7C142779F700BD2495 /* Tea Time.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		29B97313FDCFA39411CA2CEA /* Project object */ = {
+		D8737B73142779F700BD2495 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tea Time" */;
-			compatibilityVersion = "Xcode 3.0";
+			attributes = {
+				ORGANIZATIONNAME = "froglogic GmbH";
+			};
+			buildConfigurationList = D8737B76142779F700BD2495 /* Build configuration list for PBXProject "Tea Time" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
-			hasScannedForEncodings = 1;
+			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
+				en,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA /* Tea Time */;
+			mainGroup = D8737B71142779F700BD2495;
+			productRefGroup = D8737B7D142779F700BD2495 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* Tea Time */,
-				172754BD107597F200D0347B /* Unit Tests */,
-				4D1A51A110A4FF5D0046A98A /* Compile */,
-				4D1A51A510A4FF640046A98A /* Embed */,
+				D8737B7B142779F700BD2495 /* Tea Time */,
+				D8737B84142779F700BD2495 /* Deployment */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8D1107290486CEB800E47090 /* Resources */ = {
+		D8737B7A142779F700BD2495 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
-				2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */,
-				D810D88312F5CB89004C144C /* AppDelegate.rb in Resources */,
-				D8E64CD612FFFB2400F4EB19 /* teacup.icns in Resources */,
+				D8737B8A142779F700BD2495 /* InfoPlist.strings in Resources */,
+				D8737B91142779F700BD2495 /* MainMenu.xib in Resources */,
+				D8737B94142779F700BD2495 /* rb_main.rb in Resources */,
+				D8737B96142779F700BD2495 /* AppDelegate.rb in Resources */,
+				D8737BB614277E6E00BD2495 /* teacup.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		172754BC107597F200D0347B /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/macruby Tests/run_suite.rb";
-		};
-		4D1A51A010A4FF5D0046A98A /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# The macruby_deploy command-line tool with the --compile argument will compile every Ruby source file of your .app into machine code. Default options will be used. Pass the -h option to get more information.\nPATH=\"$PATH:/usr/local/bin\" macruby_deploy --compile \"$TARGET_BUILD_DIR/$PROJECT_NAME.app\"";
-		};
-		4D1A51A410A4FF640046A98A /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# The macruby_deploy command-line tool with the --embed argument will make sure the MacRuby framework will be embedded in your .app. Default options will be used. Pass the -h option to get more information.\nPATH=\"$PATH:/usr/local/bin\" macruby_deploy --embed \"$TARGET_BUILD_DIR/$PROJECT_NAME.app\"";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		8D11072C0486CEB800E47090 /* Sources */ = {
+		D8737B78142779F700BD2495 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				D8737B8C142779F700BD2495 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+		D8737B88142779F700BD2495 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
+				D8737B89142779F700BD2495 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		2BFA9DA510CDF852007972A1 /* MainMenu.xib */ = {
+		D8737B8F142779F700BD2495 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2BFA9DA610CDF852007972A1 /* English */,
+				D8737B90142779F700BD2495 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -319,180 +217,126 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		172754BE107597F200D0347B /* Debug */ = {
+		D8737B97142779F700BD2495 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "Unit Tests";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		172754BF107597F200D0347B /* Release */ = {
+		D8737B98142779F700BD2495 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = "Unit Tests";
-				ZERO_LINK = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		4D1A51A210A4FF5D0046A98A /* Debug */ = {
+		D8737B9A142779F700BD2495 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = Compile;
-			};
-			name = Debug;
-		};
-		4D1A51A310A4FF5D0046A98A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = Compile;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		4D1A51A610A4FF640046A98A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = Embed;
-			};
-			name = Debug;
-		};
-		4D1A51A710A4FF640046A98A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PRODUCT_NAME = Embed;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		C01FCF4B08A954540054247B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/build/Debug\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = "Tea Time";
+				GCC_PREFIX_HEADER = "Tea Time/Tea Time-Prefix.pch";
+				INFOPLIST_FILE = "Tea Time/Tea Time-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-				ZERO_LINK = YES;
 			};
 			name = Debug;
 		};
-		C01FCF4C08A954540054247B /* Release */ = {
+		D8737B9B142779F700BD2495 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/build/Debug\"",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
 				);
-				GCC_MODEL_TUNING = G5;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = "Tea Time";
+				GCC_PREFIX_HEADER = "Tea Time/Tea Time-Prefix.pch";
+				INFOPLIST_FILE = "Tea Time/Tea Time-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		C01FCF4F08A954540054247B /* Debug */ = {
+		D8737B9D142779F700BD2495 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				GCC_ENABLE_OBJC_GC = required;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 			};
 			name = Debug;
 		};
-		C01FCF5008A954540054247B /* Release */ = {
+		D8737B9E142779F700BD2495 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				GCC_ENABLE_OBJC_GC = required;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		172754C7107597F400D0347B /* Build configuration list for PBXAggregateTarget "Unit Tests" */ = {
+		D8737B76142779F700BD2495 /* Build configuration list for PBXProject "Tea Time" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				172754BE107597F200D0347B /* Debug */,
-				172754BF107597F200D0347B /* Release */,
+				D8737B97142779F700BD2495 /* Debug */,
+				D8737B98142779F700BD2495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D1A51AB10A4FF6A0046A98A /* Build configuration list for PBXAggregateTarget "Compile" */ = {
+		D8737B99142779F700BD2495 /* Build configuration list for PBXNativeTarget "Tea Time" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D1A51A210A4FF5D0046A98A /* Debug */,
-				4D1A51A310A4FF5D0046A98A /* Release */,
+				D8737B9A142779F700BD2495 /* Debug */,
+				D8737B9B142779F700BD2495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D1A51AC10A4FF6A0046A98A /* Build configuration list for PBXAggregateTarget "Embed" */ = {
+		D8737B9C142779F700BD2495 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D1A51A610A4FF640046A98A /* Debug */,
-				4D1A51A710A4FF640046A98A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Tea Time" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C01FCF4B08A954540054247B /* Debug */,
-				C01FCF4C08A954540054247B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tea Time" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C01FCF4F08A954540054247B /* Debug */,
-				C01FCF5008A954540054247B /* Release */,
+				D8737B9D142779F700BD2495 /* Debug */,
+				D8737B9E142779F700BD2495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+	rootObject = D8737B73142779F700BD2495 /* Project object */;
 }
